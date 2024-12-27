@@ -1,27 +1,28 @@
+// user defined function  :
 /*
-function is a block of statements that takes some input do some computation and gives us output.
+function is that takes some input do computation on it and provides us output
 
- function have 3 parts
- 1. function defintion;
- 2.function declaration
-3. function call;
-
-ex:
-return type function name (parameter list/arguments){
-// function body
+function 3 parts;
+1; function defintion
+2. function declaration
+3. function call
+syntax:
+ return-type function name(parameter list)
+{
+    body of the function
 }
-
-functionname(arguments)
 
 */
 
-// program to print statement using function
-
 #include<stdio.h>
-int print();   // function defintion
+int print();    // function defintion
+
 int main(){
-    print();  // function call;
+    print();    // function call
+    print();
+    print();
 }
-int print(){  // function declaration
-    printf("Hello");
+
+int print(){    // function declaration
+    printf("Hello world welcome to user defined function.\n");  // body of the function
 }
